@@ -23,7 +23,7 @@ const App = () => {
       <h2>SSS (Sıkça Sorulan Sorular)</h2>
       <div>
         {faqData.map((faq, index) => (
-          <Accordion key={index} question={faq.question} answer={faq.answer} />
+          <Accordion key={iindex} question={faq.question} answer={faq.answer} />
         ))}
       </div>
     </div>
